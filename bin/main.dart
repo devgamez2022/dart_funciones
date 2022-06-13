@@ -1,4 +1,10 @@
 void main(List<String> args) {
+  /**
+   * En dart las funciones también son objetos, lo que significa que incluso
+   * podemos pasarlas como parámetros de otras funciones como un objeto de tipo
+   * Function.
+   * A continuación los siguientes ejemplos.
+   */
   String nombre = "Manuel de Jesús Gámez López";
 
   var operacion1 = operacion(5, 3, suma);
